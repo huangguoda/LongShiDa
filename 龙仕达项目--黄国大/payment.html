@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>payment</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_560829_xqwh9f7un7jsjor.css">
+    <link rel="stylesheet" href="payment.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script src="jquery.min.js"></script>
+    <script src="Method.js"></script>
+    <script src="payment.js"></script>
+</head>
+<body>
+<span id="info_frame"><a href="#">0</a></span>
+    <header>
+        <div class="header_top">
+            <div class="header_top_box">
+                <div class="header_top_left">您好，欢迎来到龙仕达</div>
+                <div class="header_top_right">
+                    <ul>
+                        <li><a href="login.html">登录</a></li>
+                        <li><a href="regsiter.html">注册</a></li>
+                        <li><a href="mygoods.html">我的订单</a></li>
+                        <li><a href="main.html">我的龙仕达</a></li>
+                        <li><a href="#">帮助反馈</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header_box">
+            <div class="header_minbox">
+                <div id="logo">
+                    <img src="images/logo_03.jpg"/>
+                </div>
+                <div class="header_search">
+                    <div class="header_search_box">
+                        <div class="header_search1">
+                            <div class="header_search1_text">
+                                <input type="text" id="header_text" value="跑步机/健身车">
+                                <a href="#"><img src="images/sou.png"/></a>
+                            </div>
+                        </div>
+                        <div class="header_search2">
+                            <a href="shopping_cart.html">
+                                <img src="images/shopping.png"/>
+                                <span>我的购物车</span>
+                            </a>
+                            <div class="dialog">
+                                <div class="dialog_minbox"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_search1_text_list">
+                        <ul>
+                            <li><a href="#">运动鞋</a></li>
+                            <li><a href="#">鞋子 男</a><li>
+                            <li><a href="#">鞋子 女</a><li>
+                            <li><a href="#">耐克</a><li>
+                            <li><a href="#">安踏</a></li>
+                            <li><a href="#">阿迪达斯</a></li>
+                            <li><a href="#">男鞋</a></li>
+                            <li><a href="#">女鞋</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <nav class="header_nav">
+                <ul>
+                    <li><a href="#">全部商品分类</a></li>
+                    <li><a href="main.html">首页</a></li>
+                    <li><a href="goods_classify.html">球类</a></li>
+                    <li><a href="goods_classify.html">运动鞋</a></li>
+                    <li><a href="goods_details.html">健身器材</a></li>
+                    <li><a href="goods_details.html">体育器材</a></li>
+                    <li><a href="goods_details.html">运动休闲设备</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">特惠</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="middle">
+        <div id="payment">
+            <div id="payment_content">
+                <div id="payment_content01">
+                    <br />
+                    <p class="p1">订单提交成功，请尽快付款！订单号：70453646976<span class="sp1">应付金额<span class="sp2">1893.00</span>元</span></p>
+                    <p class="p2">请您在<span class="sp3">24小时</span>内完成支付，否则订单会被自动取消（库存紧俏订单请参见详情页时限） <a href="confirm_goods.html" id="ah1">订单详情 &nbsp;<i class="iconfont icon-down"></i></a></p>
+                </div>
+                <div id="payment_content02">
+                   <h2>请添加银行卡用于支付-安全快捷</h2>
+                    <p class="p3"><span>· 最低减3元 </span><span>· 支付安全可靠</span></p>
+                    <div class="bank1">
+                        <input type="radio" id="bank_1" name="bank"  checked/>
+                        <label name="bank_1"  for="bank_1" ></label>
+                    </div>
+                    <div class="bank2">
+                        <input type="radio" id="bank_2" name="bank" />
+                        <label name="bank_2"  for="bank_2"></label>
+                    </div>
+                    <div class="bank3">
+                        <input type="radio" id="bank_3" name="bank" />
+                        <label name="bank_3"  for="bank_3"></label>
+                    </div>
+                    <div class="bank4">
+                        <input type="radio" id="bank_4" name="bank" />
+                        <label name="bank_4"  for="bank_4"></label>
+                    </div>
+                    <div class="bank5">
+                        <input type="radio" id="bank_5" name="bank" />
+                        <label name="bank_5"  for="bank_5"></label>
+                    </div>
+                    <div class="bank6">
+                        <input type="radio" id="bank_6" name="bank" />
+                        <label name="bank_6"  for="bank_6"></label>
+                    </div>
+                    <div class="bank7">
+                        <input type="radio" id="bank_7" name="bank" />
+                        <label name="bank_7"  for="bank_7"></label>
+                    </div>
+                    <div class="bank8">
+                        <input type="radio" id="bank_8" name="bank" />
+                        <label name="bank_8"  for="bank_8"></label>
+                    </div>
+                    <div class="bank9">
+                        <input type="radio" id="bank_9" name="bank" />
+                        <label name="bank_9"  for="bank_9"></label>
+                    </div>
+                    <div class="bank10">
+                        <input type="radio" id="bank_10" name="bank" />
+                        <label name="bank_10"  for="bank_10"></label>
+                    </div>
+                    <div class="bank11">
+                        <input type="radio" id="bank_11" name="bank" />
+                        <label name="bank_11"  for="bank_11"></label>
+                    </div>
+                    <div class="bank12">
+                        <input type="radio" id="bank_12" name="bank" />
+                        <label name="bank_12"  for="bank_12"></label>
+                    </div>
+                    <div class="bank13">
+                        <input type="radio" id="bank_13" name="bank" />
+                        <label name="bank_13"  for="bank_13"></label>
+                    </div>
+                    <div class="bank14">
+                        <input type="radio" id="bank_14" name="bank" />
+                        <label name="bank_14"  for="bank_14"></label>
+                    </div>
+                    <div class="bank15">
+                        <input type="radio" id="bank_15" name="bank" />
+                        <label name="bank_15"  for="bank_15"></label>
+                    </div>
+
+                    <p class="openP">展开全部<i class="iconfont icon-down2"></i></p>
+                    <p class="stopP">收起全部 &Lambda;</p>
+                    <div class="online_bank">
+                        <input type="radio" id="bank_16" name="bank" />
+                        <label name="bank_16"  for="bank_16"></label>
+                    </div>
+
+                </div>
+                <div id="payment_content03">
+                    <div class="small-2">
+                        <input type="radio" id="small-2" name="bank" />
+                        <label name="small"  for="small-2" class=""></label>
+                        <img src="img/WeChat.png" id="img1" />
+                    </div>
+                    <div class="small">
+                        <input type="radio" id="small_1" name="bank" />
+                        <label name="small"  for="small_1"></label>
+                        <img src="img/unionpay.png" id="img2"/>
+                    </div>
+                    <div class="small" >
+                        <input type="radio" id="small_2" name="bank" />
+                        <label name="small"  for="small_2"></label>
+                        <img src="img/pay.png" id="img3"/>
+                    </div>
+                    <div class="small-3">
+                        <input type="radio" id="small_3" name="bank" />
+                        <label name="small"  for="small_3"></label>
+                        <img src="img/alipay.png"id="img4" />
+                    </div>
+                </div>
+                <div id="payment_content04">
+                    <span class="sp4">总金额：1893.00元</span>
+                    <img src="img/pay-success.png" id="img5"/>
+                    <span class="sp5">您的网络环境检测安全，请放心使用！</span>
+                    <span class="sp6">支付密码：</span>
+                    <input type="password" class="inp1" maxlength="1"/>
+                    <input type="password" class="inp2" maxlength="1" />
+                    <input type="password" class="inp3" maxlength="1"/>
+                    <input type="password" class="inp4" maxlength="1"/>
+                    <input type="password" class="inp5" maxlength="1"/>
+                    <input type="password" class="inp6" maxlength="1"/>
+                    <span class="forget"><a href="#">忘记密码？</a></span>
+                    <div id="btn"><a href="payment_success.html">确认支付</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mark"></div>
+
+    <footer id="bottom_second">
+        <div class="bottom_fourth">
+            <div class="QR_one">
+                <div class="all z">
+                    <ul class="one">
+                        <li style="font-size: 14px">购物指南</li>
+                        <li><a href="#">购物流程</a></li>
+                        <li><a href="#">会员介绍</a></li>
+                        <li><a href="#">生活旅行</a></li>
+                        <li><a href="#">常见问题</a></li>
+                        <li><a href="#">大家电</a></li>
+                        <li><a href="#">联系客服</a></li>
+                    </ul>
+                    <ul class="one">
+                        <li style="font-size: 14px">配送方式</li>
+                        <li><a href="#">上门自提</a></li>
+                        <li><a href="#">211&nbsp;限时达</a></li>
+                        <li><a href="#">配送服务查询</a></li>
+                        <li><a href="#">配送费收取标准</a></li>
+                        <li><a href="#">海外配送</a></li>
+                    </ul>
+                    <ul class="one">
+                        <li style="font-size: 14px">支付方式</li>
+                        <li><a href="#">货到付款</a></li>
+                        <li><a href="#">在线支付</a></li>
+                        <li><a href="#">分期付款</a></li>
+                        <li><a href="#">邮局汇款</a></li>
+                        <li><a href="#">公司转账</a></li>
+                    </ul>
+                    <ul class="one">
+                        <li style="font-size: 14px">售后服务</li>
+                        <li><a href="#">售后政策</a></li>
+                        <li><a href="#">价格说明</a></li>
+                        <li><a href="#">退款说明</a></li>
+                        <li><a href="#">返修/退换货</a></li>
+                        <li><a href="#">取消订单</a></li>
+                    </ul>
+                    <img src="images/logo_1.jpg" style="padding: 0"/>
+                </div>
+            </div>
+            <div class="QR_two">
+                <ul class="two z">
+                    <li><a href="#">关于我们</a><span>|</span></li>
+                    <li><a href="#">联系我们</a><span>|</span></li>
+                    <li><a href="#">联系客服</a><span>|</span></li>
+                    <li><a href="#">合作招商</a><span>|</span></li>
+                    <li><a href="#">商家帮助</a><span>|</span></li>
+                    <li><a href="#">营销中心</a><span>|</span></li>
+                    <li><a href="#">手机商城</a><span>|</span></li>
+                    <li><a href="#">友情链接</a><span>|</span></li>
+                    <li><a href="#">销售联盟</a><span>|</span></li>
+                    <li><a href="#">龙仕达社区</a><span>|</span></li>
+                    <li><a href="#">风险检测</a><span>|</span></li>
+                    <li><a href="#">隐私政策</a><span>|</span></li>
+                    <li><a href="#">龙仕达公益</a><span>|</span></li>
+                    <li><a href="#">English&nbsp;Site</a><span>|</span></li>
+                    <li><a href="#">Media&nbsp;&&nbsp;|&nbsp;R</a></li>
+                </ul>
+                <ul class="two z" style="width: 810px">
+                    <li><a href="#">京公网安备&nbsp;11000002000088号</a><span>|</span></li>
+                    <li><a href="#">京I CP证070359号</a><span>|</span></li>
+                    <li><a href="#">互联网药品信息服务资格证编号(京)-经营性-2014 0008</a><span>|</span></li>
+                    <li><a href="#">新出发京零 字第大 120007 号</a></li>
+                </ul>
+                <ul class="two z" style="width: 866px">
+                    <li><a href="#">互联网出版许可证编号新出网证(京)字 150号</a><span>|</span></li>
+                    <li><a href="#">出版物经营许可证</a><span>|</span></li>
+                    <li><a href="#">网络文化经营许可证京网文[201 4]21 48-348号</a><span>|</span></li>
+                    <li><a href="#">违法和不良信息举报电话：4006561155</a></li>
+                </ul>
+                <ul class="two z" style="width: 500px">
+                    <li><a href="#">Copyright</a><span>|</span></li>
+                    <li><a href="#">2004 - 2017</a><span>|</span></li>
+                    <li><a href="#"> 版权所有</a><span>|</span></li>
+                    <li><a href="#">消费者维权热线：4006067733</a><span>|</span></li>
+                    <li><a href="#"> 经营证照</a><span>|</span></li>
+                    <li><a href="#">龙士达</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

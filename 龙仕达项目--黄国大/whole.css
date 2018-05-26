@@ -1,0 +1,122 @@
+.z{
+    margin: auto;
+
+}
+.whole{
+    color: #666666;
+    font-size: 14px;
+    width: 1200px;
+    height:410px;
+}
+.whole_left{
+    width: 228px;
+    height: 408px;
+    float: left;
+    border: 1px solid #bbbcbd;
+}
+#subnav{
+    width: 95px;
+    height: 300px;
+    list-style: none;
+    margin: 22px auto auto 46px;
+}
+#one{
+    font-size: 16px;
+    font-weight: bold;
+    color: #666666;
+}
+#subnav li{
+    line-height: 26px;
+}
+#subnav a{
+    color: #666666;
+}
+#subnav a:hover{
+    color: #e4393c;
+}
+#whole_right{
+    width: 969px;
+    height:408px;
+    float: right;
+}
+.right_one{
+    height: 60px;
+    border: 1px solid #a9a9a9;
+}
+.right_one span{
+    text-align: center;
+    line-height: 60px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.right_two{
+    height: 32px;
+    list-style: none;
+    font-weight: bold;
+    margin: 28px 0 0 4px;
+    border-bottom: 1px solid #a9a9a9;
+}
+.right_two div{
+    width: 108px;
+    height: 32px;
+    float: left;
+}
+.right_two span{
+    color: #fe7800;
+    font-weight: bold;
+    text-align: center;
+}
+.third{
+    width: 969px;
+    font-size: 12px;
+    margin-top: 15px;
+}
+.right_three{
+    height: 34px;
+    background:#f5f5f5;
+    list-style: none;
+    margin-bottom: 5px;
+}
+.right_three li{
+    float: left;
+    line-height: 34px;
+    width: 90px;
+    text-align: center;
+    margin-left: 10px;
+}
+.right_three span{
+    float: left;
+    padding-left: 10px;
+}
+.right_four{
+    height: 58px;
+    list-style: none;
+    padding-bottom: 10px;
+}
+.right_four li{
+    width: 90px;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+}
+.right_four img{
+    float: left;
+    padding-right: 20px;
+}
+.right_four span{
+    float: left;
+}
+.right_four div{
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+.right_four p{
+    float:right;
+    padding-right: 12px;
+}
+.right_four a{
+    color: #666666;
+}
+
+
+

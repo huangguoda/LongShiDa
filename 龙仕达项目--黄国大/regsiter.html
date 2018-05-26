@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="regsiter.css">
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="Method.js"></script>
+    <script src="regsiter.js"></script>
+</head>
+<body>
+<!--     头部    -->
+<div id="header">
+    <div id="minheader">
+        <img id="logo" src="images/login_logo.jpg" alt="">
+        <p>已有账号？
+            <a href="login.html">请登录</a>
+        </p>
+    </div>
+</div>
+<!--     中部    -->
+<div id="main">
+<!--    表单注册    -->
+    <form id="form">
+        <div class="frame">
+            <label for="user">用&nbsp;&nbsp;&nbsp;户&nbsp;&nbsp;&nbsp;名</label>
+            <input id="user" type="text" placeholder="您的账户名的登录名" minlength="6" maxlength="18">
+        </div>
+        <div class="frame">
+            <label for="password">设&nbsp;置&nbsp;密&nbsp;码</label>
+            <input id="password" type="password" placeholder="建议至少使用两种字符组合" minlength="6" maxlength="16">
+        </div>
+        <div class="frame">
+            <label for="password_2">确&nbsp;认&nbsp;密&nbsp;码</label>
+            <input id="password_2" type="password" placeholder="请再次输入密码" minlength="6" maxlength="16">
+        </div>
+        <div class="frame">
+            <label for="cellphone">中国&nbsp;0086&#8744;</label>
+            <input id="cellphone" type="text" placeholder="建议使用常用手机" minlength="11" maxlength="11" pattern="^1[0-9]{10}$">
+        </div>
+        <div class="frame">
+            <label for="validate">验&nbsp;&nbsp;&nbsp;证&nbsp;&nbsp;&nbsp;码</label>
+            <input id="validate" type="text" placeholder="请输入验证码" minlength="6" maxlength="6">
+            <div id="image">
+                <img src="images/reg_verification.jpg" alt="验证码">
+            </div>
+        </div>
+        <div class="frame">
+            <label for="validate_2">手机验证码</label>
+            <input id="validate_2" type="text" placeholder="请输入手机验证码" minlength="6" maxlength="6">
+            <a href="#">
+                <div id="gain">获取验证码</div>
+                <div id="gain1"></div>
+            </a>
+        </div>
+        <input id="frame1" type="submit" value="立即注册">
+        <!--<a href="#">-->
+            <!--<div class="frame1">立即注册</div>-->
+        <!--</a>-->
+    </form>
+    <div id="register">
+        <ul>
+            <li class="register_2">
+                <a href="#">
+                    <img src="images/reg_enterprise.jpg" alt="">
+                    <span>企业用户注册</span>
+                </a>
+            </li>
+            <li class="register_3">
+                <a href="#">
+                    <img src="images/reg_Global.jpg" alt="">
+                    <span>INTERNATIONAL<br />CUSTOMERS</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!--     尾部    -->
+<div id="footer">
+    <nav>
+        <ul class="nav_2">
+            <li class="nav_1">
+                <a href="#">关于我们</a>
+            </li>
+            <li>|</li>
+            <li class="nav_1">
+                <a href="#">联系我们</a>
+            </li>
+            <li>|</li>
+            <li class="nav_1">
+                <a href="#">人才招聘</a>
+            </li>
+            <li>|</li>
+            <li class="nav_1">
+                <a href="#">商家入驻</a>
+            </li>
+            <li>|</li>
+            <li class="nav_1">
+                <a href="#">广告服务</a>
+            </li>
+            <li class="nav_1">
+                <a href="#">友情链接</a>
+            </li>
+            <li>|</li>
+            <li class="nav_1">
+                <a href="#">销售联盟</a>
+            </li>
+            <li class="nav_1">
+                <a href="#">龙仕达社区</a>
+            </li>
+            <li>|</li>
+            <li class="nav_1">
+                <a href="#">龙士达公益</a>
+            </li>
+            <li>|</li>
+            <li class="nav_1">
+                <a href="#">English&nbsp;Site</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="copyright">Copyright©2004-2016&nbsp;&nbsp;龙仕达&nbsp;&nbsp;&nbsp;版权所有</div>
+</div>
+</body>
+</html>

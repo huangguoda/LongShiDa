@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.z{
+    margin: auto;
+}
+#bottom_second{
+    width: 1920px;
+    height: 483px;
+    margin: 20px auto;
+}
+.bottom_third{
+    width: 1200px;
+    height: 48px;
+    margin: auto;
+    list-style: none;
+}
+.bottom_third img{
+    float: left;
+    padding-right: 18px;
+}
+.bottom_third li {
+    width: 240px;
+    padding-right: 76px;
+    float: left;
+}
+.bottom_third span{
+    font-size: 19px;
+    line-height: 48px;
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+.bottom_fourth{
+    width: 1920px;
+    height: 480px;
+    color: white;
+    font-size: 12px;
+    background: black;
+    border-top: 1px solid #cccccc;
+    margin-top: 16px;
+}
+.QR_one{
+    height: 200px;
+    border-bottom: 1px solid #666666;
+}
+.all{
+    width: 938px;
+    padding: 15px 44px auto;
+}
+.one{
+    /*width: 82px;*/
+    width: 135px;
+    margin-top: 10px;
+    list-style: none;
+    float: left;
+    /*padding-right: 102px;*/
+    padding-right: 45px;
+}
+.one li{
+    line-height: 24px;
+    clear: left;
+}
+.all img{
+    float: right;
+}
+.QR_two{
+    height: 120px;
+    margin-top: 15px;
+}
+.two{
+    width: 1000px;
+    list-style: none;
+}
+.two li{
+    float: left;
+    margin-bottom: 5px;
+
+}
+.two a{
+    color:#666666;
+
+}
+.two span{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+
+
+
+
+
+

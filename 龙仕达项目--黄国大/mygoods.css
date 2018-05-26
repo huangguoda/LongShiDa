@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+}
+.main{
+    width:1200px;
+    height:1108px;
+    border:1px solid #ccc;
+    margin: 0 auto;
+    color:#999;
+    font-size: 14px;
+}
+.main_nav{
+    line-height: 60px;
+    color:#666;
+    border-bottom:2px solid #ff0036;
+}
+.main_goods{
+    height:320px;
+    border: 1px solid #ccc;
+}
+.main_order{
+    height:65px;
+    line-height: 65px;
+    margin-left: 80px;
+}
+.main_order ul li{
+    margin-right: 80px;
+}
+.goods_gowarehouse{
+    height:30px;
+    color:#ef0f0f;
+    margin-left: 100px;
+}
+.main_process{
+    height:210px;
+    float: right;
+    margin: 10px 40px;
+
+}
+.main_process ul li:nth-child(odd){
+    width:78px;
+    color:#666;
+    text-align: center;
+}
+.main_process ul li:nth-child(even){
+    line-height: 50px;
+    color:#ef0f0f;
+    font-size: 16px;
+    letter-spacing:2px;
+}
+.main_info{
+    height:320px;
+    border:1px solid #ccc;
+    margin: 30px auto;
+    color:#666;
+}
+.main_info div{
+    margin-left: 40px;
+}
+.main_info ul li{
+    width:280px;
+    line-height:30px;
+}
+.main_info1{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.main_footer{
+    height:160px;
+    border:1px solid #ccc;
+}
+.main_footer nav{
+    height:40px;
+    background: #eee;
+    line-height: 50px;
+    color:#666;
+}
+.main_footer ul li{
+    width:180px;
+    text-align: center;
+}
+.main_footer ul li:nth-child(1){
+    width: 400px;
+}
+.main_footer_img{
+    height:120px;
+    border-bottom:1px solid #ccc;
+}
+.main_footer_pic{
+    width:60px;
+    height:60px;
+    padding-top: 5px;
+    border:1px solid #ccc;
+    float: left;
+    margin-left: 20px;
+}
+.main_footer_name{
+    float: right;
+    margin-right: 40px;
+}
+.main_balance{
+    width:200px;
+    float: right;
+    margin: 20px;
+    text-align:right;
+}
+.main_balance ul:nth-child(1){
+    width:100px;
+    float: left;
+}
+.main_balance ul:nth-child(2){
+    float: right;
+    width:60px;
+}
+.main_balance ul li{
+    text-align: right;
+    line-height: 30px;
+    color: #666;
+}
+.main_balance ul li:last-child{
+    color:#ff0036;
+}
+#balance_li{
+    font-size: 22px;
+}
+
+
+
+

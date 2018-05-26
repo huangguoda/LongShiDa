@@ -1,0 +1,92 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "微软雅黑";
+}
+/*头部显示*/
+
+
+/*中间内容显示*/
+#middle{
+    width: 100%;
+    height: 460px;
+    overflow: hidden;
+}
+#payment_fail{
+    width: 1200px;
+    height: 298px;
+    border: 1px solid red;
+    margin: 80px auto;
+}
+.payment_fail_1{
+    width: 200px;
+    height: 110px;
+    background:url("img/fail.png") no-repeat right bottom;
+    float: left;
+}
+.payment_fail_2{
+    margin-top: 70px;
+    width: 540px;
+    height: 125px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+.p1{
+    font-size: 30px;
+    color: #666666;
+    font-weight: bold;
+}
+.p2{
+    margin-top: 5px;
+    font-size: 13px;
+    color:#666666;
+}
+.btn{
+    margin-top: 25px;
+    width: 100px;
+    height: 35px;
+    background: #eeeeee;
+    display: inline-block;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #b0b0b0;
+}
+.btn a{
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+}
+#continue{
+    text-decoration: none;
+    font-size: 14px;
+    color:#ea1010;
+    position: absolute;
+    bottom: 5px;
+    left: 250px;
+}
+.payment_fail_3{
+    border-left: 1px solid #b0b0b0;
+    width: 449px;
+    height: 240px;
+    background: url("img/Shopping Mall App.png") no-repeat center center;
+    float: left;
+    margin-top: 30px;
+}
+#mark{
+    margin:auto;
+    width: 1200px;
+    height: 70px;
+    background: url("img/mark.png") no-repeat;
+}
+
+/*底部显示*/
+#bottom{
+    width: 100%;
+    height: 300px;
+    background: aquamarine;
+}

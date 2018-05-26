@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="evaluate_details.css">
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="Method.js"></script>
+    <script src="evaluate_details.js"></script>
+
+</head>
+<body>
+<span id="info_frame"><a href="#">0</a></span>
+<header>
+    <div class="header_top">
+        <div class="header_top_box">
+            <div class="header_top_left">您好，欢迎来到龙仕达</div>
+            <div class="header_top_right">
+                <ul>
+                    <li><a href="login.html">登录</a></li>
+                    <li><a href="regsiter.html">注册</a></li>
+                    <li><a href="mygoods.html">我的订单</a></li>
+                    <li><a href="main.html">我的龙仕达</a></li>
+                    <li><a href="#">帮助反馈</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header_box">
+        <div class="header_minbox">
+            <div id="logo">
+                <img src="images/logo_03.jpg"/>
+            </div>
+            <div class="header_search">
+                <div class="header_search_box">
+                    <div class="header_search1">
+                        <div class="header_search1_text">
+                            <input type="text" id="header_text" value="跑步机/健身车">
+                            <a href="#"><img src="images/sou.png"/></a>
+                        </div>
+                    </div>
+                    <div class="header_search2">
+                        <a href="shopping_cart.html">
+                            <img src="images/shopping.png"/>
+                            <span>我的购物车</span>
+                        </a>
+                        <div class="dialog">
+                            <div class="dialog_minbox"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_search1_text_list">
+                    <ul>
+                        <li><a href="#">运动鞋</a></li>
+                        <li><a href="#">鞋子 男</a><li>
+                        <li><a href="#">鞋子 女</a><li>
+                        <li><a href="#">耐克</a><li>
+                        <li><a href="#">安踏</a></li>
+                        <li><a href="#">阿迪达斯</a></li>
+                        <li><a href="#">男鞋</a></li>
+                        <li><a href="#">女鞋</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <nav class="header_nav">
+            <ul>
+                <li id="wholegoods_disply"><a href="#">全部商品分类</a></li>
+                <li><a href="main.html">首页</a></li>
+                <li><a href="goods_classify.html">球类</a></li>
+                <li><a href="goods_classify.html">运动鞋</a></li>
+                <li><a href="goods_details.html">健身器材</a></li>
+                <li><a href="goods_details.html">体育器材</a></li>
+                <li><a href="goods_details.html">运动休闲设备</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">特惠</a></li>
+            </ul>
+        </nav>
+        <div class="wholegoods">
+            <div class="wholegoods_class">
+                <div class="wholegoods_class_title">
+                    <span class="wholegoods_span1">球类</span>
+                    <span class="wholegoods_span2">></span>
+                </div>
+                <div class="wholegoods_class_last">
+                    <ul>
+                        <li><a href="#">篮球</a></li>
+                        <li><a href="#">羽毛球</a></li>
+                        <li><a href="#">排球</a></li>
+                        <li><a href="#">网球</a></li>
+                        <li><a href="#">足球</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wholegoods_class">
+                <div class="wholegoods_class_title">
+                    <span class="wholegoods_span1">运动鞋</span>
+                    <span class="wholegoods_span2">></span>
+                </div>
+                <div class="wholegoods_class_last">
+                    <ul>
+                        <li><a href="#">篮球鞋</a></li>
+                        <li><a href="#">羽毛球鞋</a></li>
+                        <li><a href="#">排球鞋</a></li>
+                        <li><a href="#">网球鞋</a></li>
+                        <li><a href="#">足球鞋</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wholegoods_class">
+                <div class="wholegoods_class_title">
+                    <span class="wholegoods_span1">健身器材</span>
+                    <span class="wholegoods_span2">></span>
+                </div>
+                <div class="wholegoods_class_last">
+                    <ul>
+                        <li><a href="#">跑步机</a></li>
+                        <li><a href="#">健身车</a></li>
+                        <li><a href="#">划船器</a></li>
+                        <li><a href="#">杠铃哑铃</a></li>
+                        <li><a href="#">设备</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wholegoods_class">
+                <div class="wholegoods_class_title">
+                    <span class="wholegoods_span1">体育器材</span>
+                    <span class="wholegoods_span2">></span>
+                </div>
+                <div class="wholegoods_class_last">
+                    <ul>
+                        <li><a href="#">乒乓球桌</a></li>
+                        <li><a href="#">台球桌</a></li>
+                        <li><a href="#">运动地板</a></li>
+                        <li><a href="#">场地设施</a></li>
+                        <li><a href="#">设备</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wholegoods_class">
+                <div class="wholegoods_class_title">
+                    <span class="wholegoods_span1">运动休闲设备</span>
+                    <span class="wholegoods_span2">></span>
+                </div>
+                <div class="wholegoods_class_last">
+                    <ul>
+                        <li><a href="#">按摩椅</a></li>
+                        <li><a href="#">律动仪</a></li>
+                        <li><a href="#">律动沙发</a></li>
+                        <li><a href="#">律动床</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    <article class="goods_details">
+        <div class="goods_details_left">
+            <div class="goods_details_left1">
+                <div class="main_pic">
+                    <img src="images/commodity_03.jpg">
+                    <span class="max_pic"></span>
+                    <span class="mouse_pic"></span>
+                    <span class="min_pic"><img src="images/commodity_03.jpg"></span>
+                </div>
+                <div class="goods_details_left1_list">
+                    <ul>
+                        <li class="colorClass"><img src="images/commodity1_07.png"/></li>
+                        <li class="colorClass"><img src="images/commodity2_07.png"/></li>
+                        <li class="colorClass"><img src="images/commodity3_07.png"/></li>
+                        <li class="colorClass"><img src="images/commodity4_07.png"/></li>
+                        <li class="colorClass"><img src="images/commodity5_07.png"/></li>
+                    </ul>
+                </div>
+                <div class="goods_details_left1_bottom">
+                    <ul>
+                        <li><a href="#"><img src="images/shoucang.png"/><span>收藏</span></a></li>
+                        <li><a href="#"><img src="images/fenxian.png"/><span>分享</span></a></li>
+                        <li><a href="#">举报</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="goods_details_left2">
+                <h4>Reebok/锐步ZJET430跑步机家用款超静音可折叠减震电动健身器材</h4>
+                <p>空气减震 节能马达 430mm 舒适跑台</p>
+                <div class="goods_details_left2_price">
+                    <div class="price aa">价格<s>￥9999.00</s></div>
+                    <div class="price">促销价<span>￥4999.00</span></div>
+                </div>
+                <div class="goods_details_left2_freight">
+                    <ul>
+                        <li>运费</li>
+                        <li>浙江丽水至广州</li>
+                        <li>至广州V快递:0.00</li>
+                    </ul>
+                </div>
+                <div class="goods_details_left2_sales">
+                    <ul>
+                        <li>月销量<span>34</span></li>
+                        <li>累计评价<span>345</span></li>
+                    </ul>
+                </div>
+                <div class="goods_details_left2_classify">
+                    <ul>
+                        <li><label>颜色分类</label></li>
+                        <li class="colorClass"><img src="images/commodity_colour1_07.png"/></li>
+                        <li class="colorClass"><img src="images/commodity_colour2_07.png"/></li>
+                    </ul>
+                </div>
+                <div class="goods_details_left2_number">
+                    <ul>
+                        <li><label>数量</label></li>
+                        <li><input type="text" value="1" class="text"/></li>
+                        <li>
+                            <div class="jia">&and;</div>
+                            <div class="jian">&or;</div>
+                        </li>
+                        <li>件</li>
+                        <li>库存4851件</li>
+                    </ul>
+                </div>
+                <div class="goods_details_left2_btn">
+                    <a href="confirm_goods.html"><div class="goods_details_left2_btn1">立即购买</div></a>
+                    <a href="shopping_cart.html"><div class="goods_details_left2_btn2">加入购物车</div></a>
+                </div>
+                <div class="goods_details_left2_list">
+                    <ul>
+                        <li><a href="#">服务承诺</a></li>
+                        <li><a href="#">正品保证</a></li>
+                        <li><a href="#">极速退款</a></li>
+                        <li><a href="#">赠运费险</a></li>
+                        <li><a href="#">七天无理由退换</a></li>
+                        <li><a href="#">支付方式</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <article class="goods_details_right time()">
+            <h6>看了又看</h6>
+            <div class="gundonfuji" >
+                <div class="gunbong ">
+                    <div class="goods_details_right_all " >
+                        <div class="goods_details_right_div ">
+                            <div class="goods_details_right_div_img"><a href="#"><img src="images/Ab-Wheel1_07.png"/></a></div>
+                            <div class="goods_details_right_div_text">￥65.00</div>
+                        </div>
+                        <div class="goods_details_right_div mask">
+                            <div class="goods_details_right_div_img"><a href="#"><img src="images/Ab-Wheel2_07.png"/></a></div>
+                            <div class="goods_details_right_div_text">￥65.00</div>
+                        </div>
+                        <div class="goods_details_right_div mask">
+                            <div class="goods_details_right_div_img"><a href="#"><img src="images/Ab-Wheel1_07.png"/></a></div>
+                            <div class="goods_details_right_div_text">￥65.00</div>
+                        </div>
+                    </div>
+                    <!--<div class="goods_details_right_all2"></div>-->
+                </div>
+
+            </div>
+        </article>
+    </article>
+    <div class="main">
+        <div class="main_left">
+            <div class="main_left_div1">热门商品</div>
+            <div class="main_left_div2">关联商品</div>
+            <div class="main_left_list">
+                <div><img src="images/list1.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>1</li>
+                        <li>热销4679件</li>
+                        <li>￥3999</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_left_list">
+                <div><img src="images/list2.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>2</li>
+                        <li>热销4679件</li>
+                        <li>￥1699</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_left_list">
+                <div><img src="images/list7.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>3</li>
+                        <li>热销4679件</li>
+                        <li>￥49.00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_left_list">
+                <div><img src="images/list4.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>4</li>
+                        <li>热销4679件</li>
+                        <li>￥229</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_left_list">
+                <div><img src="images/list5.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>5</li>
+                        <li>热销4679件</li>
+                        <li>￥229</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_left_list">
+                <div><img src="images/list6.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>6</li>
+                        <li>热销4679件</li>
+                        <li>￥3999</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_left_list">
+                <div><img src="images/list7.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>7</li>
+                        <li>热销4679件</li>
+                        <li>￥3999</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main_left_list">
+                <div><img src="images/list8.png"/></div>
+                <div class="main_left_list_title">
+                    <ul>
+                        <li>8</li>
+                        <li>热销4679件</li>
+                        <li>￥3999</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="main_right">
+            <div class="main_right_nav">
+                <div class="main_right_list">
+                    <ul>
+                        <li>商品介绍</li>
+                        <li>商品文字</li>
+                        <li>商品评价（4600+）</li>
+                    </ul>
+                </div>
+                <a href="shopping_cart.html"><div class="main_right_btn">加入购物车</div></a>
+            </div>
+            <article class="main_right_brand">
+                <h6>品牌：<span>适当方式得到阿诗丹</span></h6>
+                <div class="main_right_text">
+                    <ul>
+                        <li>商品名称：奥术大师多奥术大师多...</li>
+                        <li>商品编号：11648728524</li>
+                        <li>店铺：<span>适当方式得到阿诗丹</span></li>
+                        <li>商品毛重：1.0kg</li>
+                    </ul>
+                </div>
+                <div class="main_right_text">
+                    <ul>
+                        <li>商品产地：中国大陆</li>
+                        <li>货号：1</li>
+                        <li>分类：收腹机</li>
+                        <li>适合人群：通用</li>
+                    </ul>
+                </div>
+                <div class="main_right_text">
+                    <ul>
+                        <li>价位：0-199</li>
+                    </ul>
+                </div>
+                <footer><a href="#"> 更多参数>></a></footer>
+            </article>
+            <article class="main_right_evaluate">
+                <h6>商品评价</h6>
+                    <div class="main_right_evaluate_left">
+                        <img src="images/list9.png"/>
+                        <span>大家都写到</span>
+                    </div>
+                    <div class="main_right_evaluate_right">
+                        <ul>
+                            <li><a href="#">态度不错(41）</a></li>
+                            <li><a href="#">质量很好(38）</a></li>
+                            <li><a href="#">快递不错(30）</a></li>
+                            <li><a href="#">外观不错(14）</a></li>
+                            <li><a href="#">实惠(14）</a></li>
+                            <li><a href="#">性价比高(41）</a></li>
+                        </ul>
+                    </div>
+            </article>
+            <nav>
+                <ul>
+                    <li>全部评价(1 600+)</li>
+                    <li><a href="#">晒图(321 )</a></li>
+                    <li><a href="#">追评(14)</a></li>
+                    <li><a href="#">好评(11114 +)</a></li>
+                    <li><a href="#">中评(14 )</a></li>
+                    <li><a href="#">差评(14 )</a></li>
+                    <li><a href="#">只看当前商品评价</a></li>
+                    <li><a href="#">推荐排序V</a></li>
+                </ul>
+            </nav>
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_right_box last_box">
+                <div class="main_right_user">
+                    <div></div>
+                    <div>万***户</div>
+                </div>
+                <div class="main_right_box_details">
+                    <div class="main_right_box_details1"></div>
+                    <div class="main_right_box_details2">买的时候，看中它的品牌。这款简单，大气，没有花哨的功能，目前质量还可以，希望能耐用</div>
+                    <div class="main_right_box_details3">
+                        <ul>
+                            <li><img src="images/eva_small_img%20(19).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(20).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(21).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(22).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(23).jpg"/></li>
+                            <li><img src="images/eva_small_img%20(24).jpg"/></li>
+                        </ul>
+                    </div>
+                    <div class="main_right_box_details4">
+                        <ul>
+                            <li>ZJET430</li>
+                            <li>2017-04-24 11：36</li>
+                            <li>
+                                <ul>
+                                    <li><a href="#">举报</a></li>
+                                    <li class="like">0</li>
+                                    <li class="comment">0</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <ul>
+                <li>1</li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">6</a></li>
+                <li><a href="#">...</a></li>
+                <li><a href="#">下一页</a></li>
+            </ul>
+        </footer>
+    </div>
+    <article class="groom">
+        <div class="column">
+            <h4>推荐</h4>
+        </div>
+        <div class="groom_img">
+            <ul>
+                <li>
+                    <a href="#"><img src="images/Treadmill_03.png"/></a>
+                    <span>￥65.00</span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/Treadmill1_03.png"/></a>
+                    <span>￥65.00</span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/Treadmill2_03.png"/></a>
+                    <span>￥65.00</span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/Treadmill3_03.png"/></a>
+                    <span>￥65.00</span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/Treadmill4_03.png"/></a>
+                    <span>￥65.00</span>
+                </li>
+                <li>
+                    <a href="#"><img src="images/Treadmill5_03.png"/></a>
+                    <span>￥65.00</span>
+                </li>
+            </ul>
+        </div>
+    </article>
+
+<footer id="bottom_second">
+    <ul class="bottom_third z">
+        <li><img src="images/bottom_01.jpg"/><span>品类齐全，轻松购物</span></li>
+        <li><img src="images/bottom_02.jpg"/><span>多仓直发，极速配送</span></li>
+        <li><img src="images/bottom_03.jpg"/><span>正品行货，精致服务</span></li>
+        <li style="padding-right: 0"><img src="images/bottom_04.jpg"/><span>天天低价，畅选无忧</span></li>
+    </ul>
+    <div class="bottom_fourth">
+        <div class="QR_one">
+            <div class="all z">
+                <ul class="one">
+                    <li style="font-size: 14px">购物指南</li>
+                    <li><a href="#">购物流程</a></li>
+                    <li><a href="#">会员介绍</a></li>
+                    <li><a href="#">生活旅行</a></li>
+                    <li><a href="#">常见问题</a></li>
+                    <li><a href="#">大家电</a></li>
+                    <li><a href="#">联系客服</a></li>
+                </ul>
+                <ul class="one">
+                    <li style="font-size: 14px">配送方式</li>
+                    <li><a href="#">上门自提</a></li>
+                    <li><a href="#">211&nbsp;限时达</a></li>
+                    <li><a href="#">配送服务查询</a></li>
+                    <li><a href="#">配送费收取标准</a></li>
+                    <li><a href="#">海外配送</a></li>
+                </ul>
+                <ul class="one">
+                    <li style="font-size: 14px">支付方式</li>
+                    <li><a href="#">货到付款</a></li>
+                    <li><a href="#">在线支付</a></li>
+                    <li><a href="#">分期付款</a></li>
+                    <li><a href="#">邮局汇款</a></li>
+                    <li><a href="#">公司转账</a></li>
+                </ul>
+                <ul class="one">
+                    <li style="font-size: 14px">售后服务</li>
+                    <li><a href="#">售后政策</a></li>
+                    <li><a href="#">价格说明</a></li>
+                    <li><a href="#">退款说明</a></li>
+                    <li><a href="#">返修/退换货</a></li>
+                    <li><a href="#">取消订单</a></li>
+                </ul>
+                <img src="images/logo_1.jpg" style="padding: 0"/>
+            </div>
+        </div>
+        <div class="QR_two">
+            <ul class="two z">
+                <li><a href="#">关于我们</a><span>|</span></li>
+                <li><a href="#">联系我们</a><span>|</span></li>
+                <li><a href="#">联系客服</a><span>|</span></li>
+                <li><a href="#">合作招商</a><span>|</span></li>
+                <li><a href="#">商家帮助</a><span>|</span></li>
+                <li><a href="#">营销中心</a><span>|</span></li>
+                <li><a href="#">手机商城</a><span>|</span></li>
+                <li><a href="#">友情链接</a><span>|</span></li>
+                <li><a href="#">销售联盟</a><span>|</span></li>
+                <li><a href="#">龙仕达社区</a><span>|</span></li>
+                <li><a href="#">风险检测</a><span>|</span></li>
+                <li><a href="#">隐私政策</a><span>|</span></li>
+                <li><a href="#">龙仕达公益</a><span>|</span></li>
+                <li><a href="#">English&nbsp;Site</a><span>|</span></li>
+                <li><a href="#">Media&nbsp;&&nbsp;|&nbsp;R</a></li>
+            </ul>
+            <ul class="two z" style="width: 810px">
+                <li><a href="#">京公网安备&nbsp;11000002000088号</a><span>|</span></li>
+                <li><a href="#">京I CP证070359号</a><span>|</span></li>
+                <li><a href="#">互联网药品信息服务资格证编号(京)-经营性-2014 0008</a><span>|</span></li>
+                <li><a href="#">新出发京零 字第大 120007 号</a></li>
+            </ul>
+            <ul class="two z" style="width: 866px">
+                <li><a href="#">互联网出版许可证编号新出网证(京)字 150号</a><span>|</span></li>
+                <li><a href="#">出版物经营许可证</a><span>|</span></li>
+                <li><a href="#">网络文化经营许可证京网文[201 4]21 48-348号</a><span>|</span></li>
+                <li><a href="#">违法和不良信息举报电话：4006561155</a></li>
+            </ul>
+            <ul class="two z" style="width: 500px">
+                <li><a href="#">Copyright</a><span>|</span></li>
+                <li><a href="#">2004 - 2017</a><span>|</span></li>
+                <li><a href="#"> 版权所有</a><span>|</span></li>
+                <li><a href="#">消费者维权热线：4006067733</a><span>|</span></li>
+                <li><a href="#"> 经营证照</a><span>|</span></li>
+                <li><a href="#">龙士达</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

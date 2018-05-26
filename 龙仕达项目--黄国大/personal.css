@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#personal{
+    width: 1205px;
+    height: 410px;
+    margin: auto;
+}
+.left_menu{
+    width: 228px;
+    height: 408px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+.menu{
+    width: 103px;
+    height: 298px;
+    list-style: none;
+    margin: 18px 0 0 50px;
+}
+a{
+    text-decoration: none;
+}
+.menu a:hover {
+    color: orangered;
+}
+.menu a{
+    color: #666666;
+}
+.menu h4{
+    color:#e70b0b;
+    font-size: 16px;
+}
+.menu li{
+    font-size:15px;
+    line-height: 27px;
+}
+.right_content {
+    width: 935px;
+    height: 365px;
+    margin-top: 10px;
+    padding-left: 36px;
+    float: left;
+}
+.right_box1{
+    height: 96px;
+    background:#f5f8fa;
+    border: 1px solid #cccccc;
+}
+.right_box1 img{
+    border-radius: 50%;
+    margin-left: 18px;
+    padding-top: 12px;
+    float: left;
+}
+.right_box1 span{
+    color: black;
+    font-size: 12px;
+    display: block;
+    float:left;
+    line-height: 96px;
+    padding-left: 8px;
+}
+#content{
+    height: 15px;
+    list-style:none;
+    padding-left: 245px;
+    float: left;
+}
+#content li{
+    font-size: 15px;
+    float: left;
+    line-height: 96px;
+    padding-left: 85px;
+}
+#content a{
+    color: #666666;
+}
+.right_box2{
+    height: 68px;
+    border: 1px solid #cccc;
+    padding-bottom: 10px;
+}
+#content_1{
+    width: 792px;
+    list-style: none;
+    margin: auto;
+}
+#content_1 li{
+    float: left;
+    font-size:16px;
+    line-height:68px;
+    color: #bbbcbd;
+}
+#content_1 div{
+    float: left;
+    padding-right: 3px;
+}
+
+#content_1 p{
+    display: block;
+    float: left;
+    color: #e70b0b;
+}
+#content_1 span{
+    padding: 0 58px;
+    font-size: 20px;
+    float: left;
+}
+.right_box3{
+    height: 56px;
+    border: 1px solid #cccc;
+    margin-top: 10px;
+    background:#f5f8fa;
+}
+.right_box3 img{
+    float: left;
+    margin: 15px;
+}
+.right_box3 span{
+    font-size: 18px;
+    line-height: 56px;
+    margin-left: 10px;
+    color: #666666;
+}
+.right_box4{
+    height: 124px;
+    border: 1px solid #cccc;
+}
+.right_box4 img{
+    padding: 15px;
+    float: left;
+}
+#content_2{
+    float: left;
+    margin-left: 15px;
+    list-style: none;
+    margin-top: 30px;
+}#content_2 li{
+    color: #666666;
+    font-size: 16px;
+     clear: left;
+    padding-bottom: 15px;
+ }
+.right_box4 span{
+    color: black;
+    font-size: 18px;
+    float: left;
+    line-height: 154px;
+}
+
+
+
+
+
+
+
+
+

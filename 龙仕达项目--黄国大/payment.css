@@ -1,0 +1,321 @@
+@charset "UTF-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "微软雅黑";
+}
+
+/*中间内容显示*/
+#middle{
+    width: 100%;
+    height: auto;
+}
+#payment_content{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+#payment_content01{
+    width: 1000px;
+    height: 70px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.p1{
+    color: #666666;
+    font-size: 14px;
+}
+.sp1{
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+}
+.sp2{
+    color: #e31613;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.p2{
+    margin-top: 5px;
+    color: #999999;
+    font-size: 12px;
+}
+.sp3{
+    color:#e31613 ;
+}
+#ah1{
+    color: #4079b8;
+}
+#ah1:hover{
+    color: red;
+}
+.p2 a{
+    text-decoration: none;
+
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#payment_content02{
+    width: 1000px;
+    height: auto;
+    background: url("img/mode.png") no-repeat left top;
+    border: 1px solid #d6d6d6;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#payment_content02 h2{
+    color: #333333;
+    margin-top: 50px;
+    font-weight: 500;
+}
+.p3 span{
+    font-size: 16px;
+    color:#e31613;
+    margin-left: 15px;
+
+}
+.p3{
+    margin-bottom: 30px;
+}
+.bank1,.bank2,.bank3,.bank4,.bank5,.bank6,.bank7,.bank8,.bank9,.bank10,.bank11,.bank12,.bank13,.bank14,.bank15{
+    width: 210px;
+    height: 80px;
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 8px;
+    border: 1px solid #d6d6d6;
+    position: relative;
+}
+.bank13,.bank14,.bank15{
+    display: none;
+}
+.bank1,.bank5,.bank9,.bank13{
+    margin-left: 80px;
+}
+.bank1{
+    background: url("img/bank.png") left top;
+}
+.bank2{
+    background: url("img/bank.png") left -271px;
+}
+.bank3{
+    background: url("img/bank.png") left -540px;
+}
+.bank4{
+    background: url("img/bank.png") left -814px;
+}
+.bank5{
+    background: url("img/bank.png") left -94px;
+}
+.bank6{
+    background: url("img/bank.png") left -362px;
+}
+.bank7{
+    background: url("img/bank.png") left -630px;
+}
+.bank8{
+    background: url("img/bank.png") left -903px;
+}
+.bank9{
+    background: url("img/bank.png") left -183px;
+}
+.bank10{
+    background: url("img/bank.png") left -454px;
+}
+.bank11{
+    background: url("img/bank.png") left -722px;
+}
+.bank12{
+    background: url("img/bank.png") left bottom;
+}
+.openP,.stopP{
+    clear: both;
+    font-size: 12px;
+    color:#4079b8;
+    cursor: pointer;
+}
+.stopP{
+    display: none;
+}
+.online_bank{
+    width: 210px;
+    height: 80px;
+    background: url("img/online_bank.png") no-repeat center center;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    border: 1px solid #d6d6d6;
+    position: relative;
+}
+#payment_content03{
+    width: 1000px;
+    height: 90px;
+    border: 1px solid #d6d6d6;
+}
+.small,.small-2,.small-3{
+    width: 150px;
+    height: 30px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 5px;
+    position: relative;
+    border-right: 1px solid #d6d6d6;
+}
+.small-3{
+    border-right: none;
+}
+.small-2{
+    margin-left: 80px;
+}
+input[type="radio"] {
+    display: none;
+
+}
+label{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:30px;
+    right: 15px;
+    cursor: pointer;
+    background: url(img/bg.png) no-repeat left top;
+}
+label[name="small"]{
+    position: absolute;
+    top: 8px;
+    left: 0px;
+}
+.checked {
+    background-position: left bottom;
+}
+#img1,#img2,#img3,#img4{
+    position: absolute;
+    top: 0px;
+    left: 17px;
+}
+#payment_content04{
+    width: 1000px;
+    height: 135px;
+    position: relative;
+}
+.sp4{
+    color: #e31613;
+    font-size: 16px;
+    position: absolute;
+    left: 70px;
+    top: 5px;
+}
+#img5{
+    position: absolute;
+    right: 245px;
+    top: 0;
+}
+.sp5{
+    font-size: 14px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #333333;
+}
+#payment_content04 input{
+    text-align: center;
+    font-size: 40px;
+}
+.inp1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 200px;
+    top: 40px;
+
+}
+.inp2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 167px;
+    top: 40px;
+}
+.inp3{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 134px;
+    top: 40px;
+}
+.inp4{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 101px;
+    top: 40px;
+}
+.inp5{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 68px;
+    top: 40px;
+}
+.inp6{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 35px;
+    top: 40px;
+}
+.sp6{
+    font-size: 14px;
+    position: absolute;
+    right: 240px;
+    top: 45px;
+    color: #333333;
+}
+.forget a{
+    position: absolute;
+    right: 30px;
+    top: 80px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333333;
+}
+.forget a:hover{
+    color: red;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 25px;
+    bottom: 0px;
+    background: #e1373a;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+}
+#btn a{
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+}
+#mark{
+    margin: 50px auto 0;
+    width: 1200px;
+    height: 70px;
+    background: url("img/mark.png") no-repeat;
+}
+.changeBg{
+    background: red;
+}
+/*底部显示*/

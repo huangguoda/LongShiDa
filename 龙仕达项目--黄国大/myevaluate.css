@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+}
+.main{
+    width:950px;
+    height:560px;
+    border:1px solid #ccc;
+    margin:20px auto;
+    font-size: 13px;
+    color:#666;
+}
+.main_title{
+    height:36px;
+    border-bottom:2px solid #ff0036;
+}
+.main_title div{
+    height:36px;
+    width:150px;
+    color: white;
+    background: #e71616;
+    text-align: center;
+    line-height: 36px;
+}
+.main_box{
+    height:310px;
+    border-bottom: 2px dotted #ccc;
+}
+.main_left{
+    width:240px;
+    float: left;
+    padding: 30px 0 0 40px;
+}
+.main_left span{
+    display: block;
+    color: #666;
+    width: 200px;
+}
+.main_right{
+    width:668px;
+    float: right;
+    position: relative;
+}
+.main_radio{
+    height:40px;
+    margin-top: 20px;
+}
+.main_radio ul li{
+    width:80px;
+    line-height: 40px;
+}
+.main_text{
+    width:570px;
+    height:176px;
+    color: #666;
+    background: #eef8fd;
+
+}
+#text{
+    width:554px;
+    height:128px;
+    margin: 6px;
+    border: 1px solid #ccc;
+}
+.main_btn ul li{
+    width:65px;
+    height:25px;
+    border:1px solid #ccc;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 6px;
+}
+.main_btn{
+    float:left;
+}
+.main_btn ul li:nth-child(1){
+    background: #93b4c6;
+    color:white;
+}
+.main_btn ul li:nth-child(2){
+    background: #e5a86a;
+    color:white;
+}
+.main_btn span{
+    line-height: 34px;
+}
+.main_right_radio{
+    width:120px;
+    float:right;
+}
+.main_right_radio ul li{
+    width:60px;
+}
+.main_ping span{
+    width:100px;
+    display: inline-block;
+}
+.main_ping ul li{
+    width:200px;
+    text-align: left;
+    margin-right: 80px;
+    line-height: 72px;
+}
+.star{
+    position:relative;
+    width:600px;
+    margin:20px auto;
+    height:24px;
+    position: absolute;
+    left: 90px;
+    bottom: 3px;
+}
+.star ul{
+    float:left;
+    display:inline;
+    height:19px;
+    line-height:19px;
+}
+.star ul{
+    margin:0 10px;
+}
+.star li{
+    float:left;
+    width:24px;
+    cursor:pointer;
+    text-indent:-9999px;
+    background:url(images/star.png) no-repeat;
+    list-style: none;
+}
+.star li.on{
+    background-position:0 -28px;
+}
+.star2{
+    position:relative;
+    width:600px;
+    margin:20px auto;
+    height:24px;
+    position: absolute;
+    left: 370px;
+    bottom: 3px;
+}
+.star2 ul{
+    float:left;
+    display:inline;
+    height:19px;
+    line-height:19px;
+}
+.star2 ul{
+    margin:0 10px;
+}
+.star2 li{
+    float:left;
+    width:24px;
+    cursor:pointer;
+    text-indent:-9999px;
+    background:url(images/star.png) no-repeat;
+    list-style: none;
+}
+.star2 li.on{
+    background-position:0 -28px;
+}
+.impression{
+    width:245px;
+    text-align: right;
+    float: left;
+}
+.impression span{
+    display: block;
+    margin-top: 40px;
+}
+.impression_btn{
+    width:668px;
+    height:190px;
+    margin-top: 20px;
+    float: right;
+}
+.impression_btn ul li{
+    width:100px;
+    height:40px;
+    border:1px solid #ccc;
+    line-height: 40px;
+    text-align:center;
+    margin: 15px 15px 0 0;
+}
+.impression_btn ul li:hover{
+    border-color: #ff0036;
+}
+.impression_btn ul li:first-child:link{
+    border-color: #ff0036;
+}
+.main_submit{
+    width:188px;
+    height:48px;
+    margin:0 auto;
+    border:1px solid #ff0000;
+    background: #e10706;
+    line-height: 48px;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+
+
